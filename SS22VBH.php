@@ -127,11 +127,8 @@ include('./includes/script.php');
         </div>
     </section>
     <script>
-
-        /*js for change content on click for 10 products*/
-
-        //product 1
-        const cng_content = document.querySelector('#cng_content');
+//product 1
+const cng_content = document.querySelector('#cng_content');
         const cng_content1 = document.querySelector('#cng_content2');
         const cng_content2 = document.querySelector('#cng_content3');
         const pc = document.querySelector('#primary_content1');
@@ -159,7 +156,10 @@ include('./includes/script.php');
             secondry_content1.style.display = "none";
             secondry_content2.style.display = "flex";
         });
+
+        
     </script>
+    
     <?php
 
     include('./includes/footer.php')

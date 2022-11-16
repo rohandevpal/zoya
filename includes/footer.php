@@ -2,6 +2,7 @@
 <script type="text/javascript" src="js/after.js?v=2"></script>
 <script type="text/javascript" src="js/custom.js?v=2"></script>
 <script src="js/bootstrap.bundle.min.js"></script>
+<script src="js/products.js"></script>
 <!-- <script src="js/custom.js"></script>
 <script src="./js/after.js"></script>  -->
 <script type="text/javascript">

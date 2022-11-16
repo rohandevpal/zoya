@@ -190,52 +190,9 @@ include('./includes/script.php');
       </div>
     </div>
   </section>
-  <script>
-    /*js for change content on click for 10 products*/
-
-    //product 2
-    const cng_content = document.querySelector('#cng_content');
-    const cng_content1 = document.querySelector('#cng_content2');
-    const cng_content2 = document.querySelector('#cng_content3');
-    const cng_content3 = document.querySelector('#cng_content4');
-
-    const pc = document.querySelector('#primary_content1');
-    const secondry_content = document.querySelector('#secondry_content');
-    const secondry_content1 = document.querySelector('#secondry_content1');
-    const secondry_content2 = document.querySelector('#secondry_content2');
-    const secondry_content3 = document.querySelector('#secondry_content3');
-
-    //defining function for change content
-    cng_content.addEventListener('click', () => {
-      console.log('dasadfdsf');
-      primary_content.style.display = "none";
-      primary_content.style.background = "red";
-      secondry_content.style.display = "flex";
-      secondry_content1.style.display = "none";
-      secondry_content2.style.display = "none";
-    });
-    cng_content1.addEventListener('click', () => {
-      primary_content.style.display = "none";
-      secondry_content.style.display = "none";
-      secondry_content1.style.display = "flex";
-      secondry_content2.style.display = "none";
-    });
-    cng_content2.addEventListener('click', () => {
-      primary_content.style.display = "none";
-      secondry_content.style.display = "none";
-      secondry_content1.style.display = "none";
-      secondry_content2.style.display = "flex";
-    });
-    cng_content3.addEventListener('click', () => {
-      primary_content.style.display = "none";
-      secondry_content.style.display = "none";
-      secondry_content1.style.display = "none";
-      secondry_content2.style.display = "none";
-      secondry_content3.style.display = "flex";
-    });
-
-
-  </script>
+<script>
+  
+</script>
   <?php
   include('./includes/footer.php')
     ?>
