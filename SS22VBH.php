@@ -67,15 +67,8 @@ include('./includes/script.php');
                             class="text-dark text-uppercase text-dark text-uppercase text-sm-center text-center text-lg-start text-md-start">
                             CRYSTALLINE CASCADES BRACELET
                         </h2>
-                        <p class="textext-sm-center text-center text-lg-start text-md-start">Lorem ipsum dolor, sit amet
-                            consectetur
-                            adipisicing elit. Quasi, voluptatibus possimus. Quis asperiores optio quisquam. Harum
-                            voluptatum nobis
-                            inventore laboriosam, perferendis rerum natus numquam officiis asperiores eaque est, quidem
-                            recusandae? Ut
-                            laboriosam quis nihil corporis inventore illum temporibus officiis voluptate quod tempora
-                            sed eum est
-                            natus vero quam, sapiente quibusdam?</p>
+                        <p class="textext-sm-center text-center text-lg-start text-md-start">Structural
+                            Quotient: Multiple-slices - Depicting Mountain Ridges</p>
                     </div>
                     <div class="text-break animateIT p-0" style="display:none" id="secondry_content">
                         <h2
@@ -126,39 +119,6 @@ include('./includes/script.php');
             </div>
         </div>
     </section>
-    <script>
-//product 1
-const cng_content = document.querySelector('#cng_content');
-        const cng_content1 = document.querySelector('#cng_content2');
-        const cng_content2 = document.querySelector('#cng_content3');
-        const pc = document.querySelector('#primary_content1');
-        const secondry_content = document.querySelector('#secondry_content');
-        const secondry_content1 = document.querySelector('#secondry_content1');
-        const secondry_content2 = document.querySelector('#secondry_content2');
-
-        //defining function for change content
-        cng_content.addEventListener('click', () => {
-            primary_content.style.display = "none";
-            primary_content.style.background = "red";
-            secondry_content.style.display = "flex";
-            secondry_content1.style.display = "none";
-            secondry_content2.style.display = "none";
-        });
-        cng_content1.addEventListener('click', () => {
-            primary_content.style.display = "none";
-            secondry_content.style.display = "none";
-            secondry_content1.style.display = "flex";
-            secondry_content2.style.display = "none";
-        });
-        cng_content2.addEventListener('click', () => {
-            primary_content.style.display = "none";
-            secondry_content.style.display = "none";
-            secondry_content1.style.display = "none";
-            secondry_content2.style.display = "flex";
-        });
-
-        
-    </script>
     
     <?php
 

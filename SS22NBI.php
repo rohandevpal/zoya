@@ -96,20 +96,13 @@ include('./includes/script.php');
               class="text-dark text-uppercase text-dark text-uppercase text-sm-center text-center text-lg-start text-md-start">
               A FLUSH OF EVERGREEN
             </h2>
-            <p class="textext-sm-center text-center text-lg-start text-md-start">Lorem ipsum dolor, sit amet
-              consectetur
-              adipisicing elit. Quasi, voluptatibus possimus. Quis asperiores optio quisquam. Harum
-              voluptatum nobis
-              inventore laboriosam, perferendis rerum natus numquam officiis asperiores eaque est, quidem
-              recusandae? Ut
-              laboriosam quis nihil corporis inventore illum temporibus officiis voluptate quod tempora
-              sed eum est
-              natus vero quam, sapiente quibusdam?</p>
+            <p class="textext-sm-center text-center text-lg-start text-md-start">The pear cut solitaire
+              is enhanced in a unique setting giving a kite-shaped outer form.</p>
           </div>
           <div class="text-break animateIT p-0" style="display:none" id="secondry_content">
             <h2
               class="text-dark text-uppercase text-dark text-uppercase text-sm-center text-center text-lg-start text-md-start">
-              CRYSTALLINE CASCADES BRACELET
+              A FLUSH OF EVERGREEN
             </h2>
 
             <p class="text-dark text-dark text-sm-center text-center text-lg-start text-md-start">The pear cut solitaire
@@ -118,7 +111,7 @@ include('./includes/script.php');
           <div class="text-break animateIT p-0" style="display:none" id="secondry_content1">
             <h2
               class="text-dark text-uppercase text-dark text-uppercase text-sm-center text-center text-lg-start text-md-start">
-              CRYSTALLINE CASCADES BRACELET
+              A FLUSH OF EVERGREEN
             </h2>
 
             <p class="text-dark text-dark text-sm-center text-center text-lg-start text-md-start">Coloured-stone seat in
@@ -127,7 +120,7 @@ include('./includes/script.php');
           <div class="text-break animateIT p-0" style="display:none" id="secondry_content2">
             <h2
               class="text-dark text-uppercase text-dark text-uppercase text-sm-center text-center text-lg-start text-md-start">
-              CRYSTALLINE CASCADES BRACELET
+              A FLUSH OF EVERGREEN
             </h2>
 
             <p class="text-dark text-dark text-sm-center text-center text-lg-start text-md-start">
@@ -136,7 +129,7 @@ include('./includes/script.php');
           <div class="text-break animateIT p-0" style="display:none" id="secondry_content3">
             <h2
               class="text-dark text-uppercase text-dark text-uppercase text-sm-center text-center text-lg-start text-md-start">
-              CRYSTALLINE CASCADES BRACELET
+              A FLUSH OF EVERGREEN
             </h2>
 
             <p class="text-dark text-dark text-sm-center text-center text-lg-start text-md-start">

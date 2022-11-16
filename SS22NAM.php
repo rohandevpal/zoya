@@ -90,11 +90,8 @@ include('./includes/script.php');
             <h2
               class="text-dark text-uppercase text-dark text-uppercase text-sm-center text-center text-lg-start text-md-start">
               EMERALD RIVERSONG</h2>
-            <p class="textext-sm-center text-center text-lg-start text-md-start">Lorem ipsum dolor, sit amet consectetur
-              adipisicing elit. Quasi, voluptatibus possimus. Quis asperiores optio quisquam. Harum voluptatum nobis
-              inventore laboriosam, perferendis rerum natus numquam officiis asperiores eaque est, quidem recusandae? Ut
-              laboriosam quis nihil corporis inventore illum temporibus officiis voluptate quod tempora sed eum est
-              natus vero quam, sapiente quibusdam?</p>
+            <p class="textext-sm-center text-center text-lg-start text-md-start">A precisely structured
+              necklace with an pear-drop silhouette</p>
           </div>
           <div class="text-break animateIT p-0" style="display:none" id="secondry_content">
             <h2
