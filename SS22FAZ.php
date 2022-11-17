@@ -56,7 +56,7 @@ include('./includes/script.php');
     <div class="container">
       <div class="row">
         <div class="col-lg-6 col-12">
-          <div class="text-break p-0" id="primary_content">
+          <div class="text-break p-0" id="primary_content1">
             <h2
               class="text-dark text-uppercase text-dark text-uppercase text-sm-center text-center text-lg-start text-md-start">
               Sparkling Rapids
@@ -110,12 +110,12 @@ include('./includes/script.php');
         </div>
         <div class="col-lg-6 col-12">
           <div class="produt-img-box">
-            <span id="cng_content"><img src="./images/Group 293.png" alt="" class="img-fluid"></span>
-            <span id="cng_content2"><img src="./images/Group 301.png" alt="" class="img-fluid"></span>
-            <span id="cng_content3"><img src="./images/Group 302.png" alt="" class="img-fluid"></span>
-            <span id="cng_content4"><img src="./images/Group 302.png" alt="" class="img-fluid"></span>
-            <span id="cng_content5"><img src="./images/Group 302.png" alt="" class="img-fluid"></span>
-            <img id="img_small" src="./images/product/leap-product_test.png" alt="">
+            <span id="p3_cng_content"><img src="./images/Group 293.png" alt="" class="img-fluid"></span>
+            <span id="p3_cng_content2"><img src="./images/Group 301.png" alt="" class="img-fluid"></span>
+            <span id="p3_cng_content3"><img src="./images/Group 302.png" alt="" class="img-fluid"></span>
+            <!-- <span id="cng_content4"><img src="./images/Group 302.png" alt="" class="img-fluid"></span>
+            <span id="cng_content5"><img src="./images/Group 302.png" alt="" class="img-fluid"></span> -->
+            <img id="img_small" src="./images/product/SS22FAZ-pro.png" alt="">
           </div>
         </div>
       </div>
@@ -159,6 +159,61 @@ include('./includes/script.php');
     /*js for change content on click for 10 products*/
 
     
+    
+//product 3
+const p3_dataChange = document.querySelector("#p3_cng_content");
+const p3_dataChange1 = document.querySelector("#p3_cng_content2");
+const p3_dataChange2 = document.querySelector("#p3_cng_content3");
+const p3_dataChange3 = document.querySelector("#cng_content4");
+const p3_dataChange4 = document.querySelector("#cng_content5");
+
+const p3_primary_content = document.querySelector("#primary_content1");
+const p3_secondry_content = document.querySelector("#secondry_content");
+const p3_secondry_content1 = document.querySelector("#secondry_content1");
+const p3_secondry_content2 = document.querySelector("#secondry_content2");
+const p3_secondry_content3 = document.querySelector("#secondry_content3");
+const p3_secondry_content4 = document.querySelector("#secondry_content4");
+
+//defining function for change content
+p3_dataChange.addEventListener("click", () => {
+  console.log("clicked");
+  p3_primary_content.style.display = "none";
+  p3_primary_content.style.background = "red";
+  p3_secondry_content.style.display = "flex";
+  p3_secondry_content1.style.display = "none";
+  p3_secondry_content2.style.display = "none";
+});
+p3_dataChange1.addEventListener("click", () => {
+  console.log("clicked");
+  p3_primary_content.style.display = "none";
+  p3_secondry_content.style.display = "none";
+  p3_secondry_content1.style.display = "flex";
+  p3_secondry_content2.style.display = "none";
+});
+p3_dataChange2.addEventListener("click", () => {
+  console.log("clicked");
+  p3_primary_content.style.display = "none";
+  p3_secondry_content.style.display = "none";
+  p3_secondry_content1.style.display = "none";
+  p3_secondry_content2.style.display = "flex";
+});
+p3_dataChange3.addEventListener("click", () => {
+  console.log("clicked");
+  p3_primary_content.style.display = "none";
+  p3_secondry_content.style.display = "none";
+  p3_secondry_content1.style.display = "none";
+  p3_secondry_content2.style.display = "none";
+  p3_secondry_content3.style.display = "flex";
+});
+p3_dataChange4.addEventListener("click", () => {
+  console.log("clicked");
+  p3_secondry_content4.style.display = "flex";
+  p3_primary_content.style.display = "none";
+  p3_secondry_content.style.display = "none";
+  p3_secondry_content1.style.display = "none";
+  p3_secondry_content2.style.display = "none";
+  p3_secondry_content3.style.display = "none";
+});
 
   </script>
   <?php

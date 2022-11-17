@@ -1851,11 +1851,188 @@ span {
     margin: 0 auto;
 }
 
+/*change btn content */
+span#pr_1_cng_content {
+    position: absolute;
+    cursor: pointer;
+    right: 174px;
+    top: 181px;
+    font-size: 16px;
+    margin: 0;
+    padding-top: 0;
+    text-align: right;
+}
+
+span#pr_1_cng_content3 {
+    position: absolute;
+    cursor: pointer;
+    /* right: 0; */
+    left: 195px;
+    top: 281px;
+    font-size: 16px;
+    margin: 0;
+    padding-top: 0;
+    text-align: right;
+}
+span#pr_1_cng_content2 {
+    position: absolute;
+    cursor: pointer;
+    top: 224px;
+    left: 307px;
+    font-size: 16px;
+    margin: 0;
+    padding-top: 0;
+    text-align: right;
+}
+
+
+span#p6_cng_content3 {
+    position: absolute;
+    cursor: pointer;
+    
+    left: 207px;
+    font-size: 16px;
+    margin: 0;
+    padding-top: 0;
+    text-align: right;
+}
+span#p6_cng_content {
+    position: absolute;
+    cursor: pointer;
+    bottom: 29px;
+    right: 159px;
+    font-size: 16px;
+    margin: 0;
+    padding-top: 0;
+
+}
+
+#p9_cng_content2{
+    position: absolute;
+    cursor: pointer;
+    top: 94px;
+    left: 158px;
+    font-size: 16px;
+    margin: 0;
+    padding-top: 0;
+}
+#p9_cng_content{
+    position: absolute;
+    cursor: pointer;
+    left: 151px;
+    top: 192px;
+    font-size: 16px;
+    margin: 0;
+    padding-top: 0;
+}
+#p9_cng_content3{
+    position: absolute;
+    cursor: pointer;
+    top: 36px;
+    left: 211px;
+    font-size: 16px;
+    margin: 0;
+    padding-top: 0;
+}
+
+#p10_cng_content{
+    position: absolute;
+    cursor: pointer;
+    bottom: 163px;
+    left: 332px;
+    font-size: 16px;
+    margin: 0;
+    padding-top: 0;
+}
+
+#p7_cng_content2 {
+    position: absolute;
+    cursor: pointer;
+    left: 236px;
+    bottom: 144px;
+    font-size: 16px;
+    margin: 0;
+    padding-top: 0;
+}
+#p7_cng_content3 {
+    position: absolute;
+    cursor: pointer;
+    left: 311px;
+    top: 319px;
+    font-size: 16px;
+    margin: 0;
+    padding-top: 0;
+}
+
+
+
+
+#p3_cng_content {
+    position: absolute;
+    cursor: pointer;
+    right: 419px;
+    top: 139px;
+    font-size: 16px;
+    margin: 0;
+    padding-top: 0;
+    text-align: right;
+}
+
+
+#p3_cng_content2 {
+    position: absolute;
+    cursor: pointer;
+    left: 219px;
+    /* bottom: 56px; */
+    top: 0;
+    font-size: 16px;
+    margin: 0;
+    padding-top: 0;
+}
+
+#p3_cng_content3 {
+    position: absolute;
+    cursor: pointer;
+    left: 356px;
+    top: 44px;
+    font-size: 16px;
+    margin: 0;
+    padding-top: 0;
+}
+#p10_cng_content3{
+    position: absolute;
+    cursor: pointer;
+    bottom: 39px;
+    left: 273px;
+    font-size: 16px;
+    margin: 0;
+    padding-top: 0;
+}
+
+#p10_cng_content2{
+    position: absolute;
+    cursor: pointer;
+    top: 144px;
+    left: 149px;
+    font-size: 16px;
+    margin: 0;
+    padding-top: 0;
+}
+span#p6_cng_content2 {
+    position: absolute;
+    cursor: pointer;
+    top: 315px;
+    left: 494px;
+    font-size: 16px;
+    margin: 0;
+    padding-top: 0;
+ 
+}
 #cng_content  {
     position: absolute;
     cursor: pointer;
-    right: 116px;
-    top: 296px;
+    right: 358px;
+    top: 339px;
     font-size: 16px;
     margin: 0;
     padding-top: 0;
@@ -1864,8 +2041,8 @@ span {
 #cng_content2 {
     position: absolute;
     cursor: pointer;
-    left: 248px;
-    top: 1px;
+    left: 358px;
+    bottom: 56px;
     font-size: 16px;
     margin: 0;
     padding-top: 0;
@@ -1873,8 +2050,8 @@ span {
 #cng_content3 {
     position: absolute;
     cursor: pointer;
-    left: 206px;
-    top: 173px;
+    left: 237px;
+    top: 249px;
     font-size: 16px;
     margin: 0;
     padding-top: 0;

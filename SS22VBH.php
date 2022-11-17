@@ -100,10 +100,10 @@ include('./includes/script.php');
                 </div>
                 <div class="col-lg-6 col-12">
                     <div class="produt-img-box">
-                        <span id="cng_content"><img src="./images/Group 293.png" alt="" class="img-fluid"></span>
-                        <span id="cng_content2"><img src="./images/Group 301.png" alt="" class="img-fluid"></span>
-                        <span id="cng_content3"><img src="./images/Group 302.png" alt="" class="img-fluid"></span>
-                        <img id="img_small" src="./images/product/leap-product_test.png" alt="">
+                        <span id="pr_1_cng_content"><img src="./images/Group 293.png" alt="" class="img-fluid"></span>
+                        <span id="pr_1_cng_content2"><img src="./images/Group 301.png" alt="" class="img-fluid"></span>
+                        <span id="pr_1_cng_content3"><img src="./images/Group 302.png" alt="" class="img-fluid"></span>
+                        <img id="img_small" src="./images/product/SS22VBH-pro.png" alt="">
                     </div>
                 </div>
             </div>

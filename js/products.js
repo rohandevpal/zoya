@@ -1,9 +1,9 @@
 /*js for change content on click for 10 products*/
 
 //product 1
-const cng_content = document.querySelector("#cng_content");
-const cng_content1 = document.querySelector("#cng_content2");
-const cng_content2 = document.querySelector("#cng_content3");
+const cng_content = document.querySelector("#pr_1_cng_content");
+const cng_content1 = document.querySelector("#pr_1_cng_content2");
+const cng_content2 = document.querySelector("#pr_1_cng_content3");
 const pc = document.querySelector("#primary_content1");
 const secondry_content = document.querySelector("#secondry_content");
 const secondry_content1 = document.querySelector("#secondry_content1");
@@ -206,9 +206,9 @@ cng_content3.addEventListener("click", () => {
 
 //product 6
 
-const p6_cng_content = document.querySelector("#cng_content");
-const p6_cng_content1 = document.querySelector("#cng_content2");
-const p6_cng_content2 = document.querySelector("#cng_content3");
+const p6_cng_content = document.querySelector("#p6_cng_content");
+const p6_cng_content1 = document.querySelector("#p6_cng_content2");
+const p6_cng_content2 = document.querySelector("#p6_cng_content3");
 const p6_primary_content = document.querySelector("#primary_content");
 const p6_secondry_content = document.querySelector("#secondry_content");
 const p6_secondry_content1 = document.querySelector("#secondry_content1");
@@ -216,18 +216,21 @@ const p6_secondry_content2 = document.querySelector("#secondry_content2");
 
 //defining function for change content
 p6_cng_content.addEventListener("click", () => {
+  console.log('c;ock');
   p6_primary_content.style.display = "none";
   p6_secondry_content.style.display = "flex";
   p6_secondry_content1.style.display = "none";
   p6_secondry_content2.style.display = "none";
 });
 p6_cng_content1.addEventListener("click", () => {
+  console.log('c;ock');
   p6_primary_content.style.display = "none";
   p6_secondry_content.style.display = "none";
   p6_secondry_content1.style.display = "flex";
   p6_secondry_content2.style.display = "none";
 });
 p6_cng_content2.addEventListener("click", () => {
+  console.log('c;ock');
   p6_console.log("sgadjhajsd");
   p6_primary_content.style.display = "none";
   p6_secondry_content.style.display = "none";
@@ -333,32 +336,4 @@ p9_cng_content2.addEventListener("click", () => {
   p9_secondry_content2.style.display = "flex";
 });
 
-//product 10
-const p10_cng_content = document.querySelector("#cng_content");
-const p10_cng_content1 = document.querySelector("#cng_content2");
-const p10_cng_content2 = document.querySelector("#cng_content3");
-const p10_primary_content = document.querySelector("#primary_content1");
-const p10_secondry_content = document.querySelector("#secondry_content");
-const p10_secondry_content1 = document.querySelector("#secondry_content1");
-const p10_secondry_content2 = document.querySelector("#secondry_content2");
-
-//defining function for change content
-p10_cng_content.addEventListener("click", () => {
-  p10_primary_content.style.display = "none";
-  p10_secondry_content.style.display = "flex";
-  p10_secondry_content1.style.display = "none";
-  p10_secondry_content2.style.display = "none";
-});
-p10_cng_content1.addEventListener("click", () => {
-  p10_primary_content.style.display = "none";
-  p10_secondry_content.style.display = "none";
-  p10_secondry_content1.style.display = "flex";
-  p10_secondry_content2.style.display = "none";
-});
-p10_cng_content2.addEventListener("click", () => {
-  p10_primary_content.style.display = "none";
-  p10_secondry_content.style.display = "none";
-  p10_secondry_content1.style.display = "none";
-  p10_secondry_content2.style.display = "flex";
-});
 

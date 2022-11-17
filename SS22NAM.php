@@ -97,7 +97,7 @@ include('./includes/script.php');
             <h2
               class="text-dark text-uppercase text-dark text-uppercase text-sm-center text-center text-lg-start text-md-start">
               EMERALD RIVERSONG</h2>
-        
+
             <p class="text-dark text-dark text-sm-center text-center text-lg-start text-md-start">A precisely structured
               necklace with an pear-drop silhouette</p>
           </div>
@@ -105,7 +105,7 @@ include('./includes/script.php');
             <h2
               class="text-dark text-uppercase text-dark text-uppercase text-sm-center text-center text-lg-start text-md-start">
               EMERALD RIVERSONG</h2>
-    
+
             <p class="text-dark text-dark text-sm-center text-center text-lg-start text-md-start">Using 10cts Zambian
               Emerald gemstone in pear cut, surrounded with 0.50ct-1cts solitaires diamonds each.</p>
           </div>
@@ -120,10 +120,10 @@ include('./includes/script.php');
         </div>
         <div class="col-lg-6 col-12">
           <div class="produt-img-box">
-            <span id="cng_content"><img src="./images/Group 293.png" alt="" class="img-fluid"></span>
-            <span id="cng_content2"><img src="./images/Group 301.png" alt="" class="img-fluid"></span>
-            <span id="cng_content3"><img src="./images/Group 302.png" alt="" class="img-fluid"></span>
-            <img id="img_small" src="./images/product/leap-product_test.png" alt="">
+            <span id="p6_cng_content"><img src="./images/Group 293.png" alt="" class="img-fluid"></span>
+            <span id="p6_cng_content2"><img src="./images/Group 301.png" alt="" class="img-fluid"></span>
+            <span id="p6_cng_content3"><img src="./images/Group 302.png" alt="" class="img-fluid"></span>
+            <img id="img_small" src="./images/product/SS22NAM-pro.png" alt="">
           </div>
         </div>
       </div>
@@ -173,6 +173,41 @@ include('./includes/script.php');
       </div>
     </div>
   </section>
+  <script>
+    //product 6
+
+const p6_cng_content = document.querySelector("#p6_cng_content");
+const p6_cng_content1 = document.querySelector("#p6_cng_content2");
+const p6_cng_content2 = document.querySelector("#p6_cng_content3");
+const p6_primary_content = document.querySelector("#primary_content");
+const p6_secondry_content = document.querySelector("#secondry_content");
+const p6_secondry_content1 = document.querySelector("#secondry_content1");
+const p6_secondry_content2 = document.querySelector("#secondry_content2");
+
+//defining function for change content
+p6_cng_content.addEventListener("click", () => {
+
+  p6_primary_content.style.display = "none";
+  p6_secondry_content.style.display = "flex";
+  p6_secondry_content1.style.display = "none";
+  p6_secondry_content2.style.display = "none";
+});
+p6_cng_content1.addEventListener("click", () => {
+
+  p6_primary_content.style.display = "none";
+  p6_secondry_content.style.display = "none";
+  p6_secondry_content1.style.display = "flex";
+  p6_secondry_content2.style.display = "none";
+});
+p6_cng_content2.addEventListener("click", () => {
+
+  p6_primary_content.style.display = "none";
+  p6_secondry_content.style.display = "none";
+  p6_secondry_content1.style.display = "none";
+  p6_secondry_content2.style.display = "flex";
+});
+
+  </script>
   <?php
 
   include('./includes/footer.php')

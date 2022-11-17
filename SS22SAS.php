@@ -121,18 +121,44 @@ include('./includes/script.php');
         </div>
         <div class="col-lg-6 col-12">
           <div class="produt-img-box">
-            <span id="cng_content"><img src="./images/Group 293.png" alt="" class="img-fluid"></span>
-            <span id="cng_content2"><img src="./images/Group 301.png" alt="" class="img-fluid"></span>
-            <span id="cng_content3"><img src="./images/Group 302.png" alt="" class="img-fluid"></span>
-            <img id="img_small" src="./images/product/leap-product_test.png" alt="">
+            <span id="p9_cng_content"><img src="./images/Group 293.png" alt="" class="img-fluid"></span>
+            <span id="p9_cng_content2"><img src="./images/Group 301.png" alt="" class="img-fluid"></span>
+            <span id="p9_cng_content3"><img src="./images/Group 302.png" alt="" class="img-fluid"></span>
+            <img id="img_small" src="./images/product/SS22SAS-pro.png" alt="">
           </div>
         </div>
       </div>
     </div>
   </section>
   <script>
+//product 9
+const p9_cng_content = document.querySelector("#p9_cng_content");
+const p9_cng_content1 = document.querySelector("#p9_cng_content2");
+const p9_cng_content2 = document.querySelector("#p9_cng_content3");
+const p9_primary_content = document.querySelector("#primary_content1");
+const p9_secondry_content = document.querySelector("#secondry_content");
+const p9_secondry_content1 = document.querySelector("#secondry_content1");
+const p9_secondry_content2 = document.querySelector("#secondry_content2");
 
-    /*js for change content on click for 10 products*/
+//defining function for change content
+p9_cng_content.addEventListener("click", () => {
+  p9_primary_content.style.display = "none";
+  p9_secondry_content.style.display = "flex";
+  p9_secondry_content1.style.display = "none";
+  p9_secondry_content2.style.display = "none";
+});
+p9_cng_content1.addEventListener("click", () => {
+  p9_primary_content.style.display = "none";
+  p9_secondry_content.style.display = "none";
+  p9_secondry_content1.style.display = "flex";
+  p9_secondry_content2.style.display = "none";
+});
+p9_cng_content2.addEventListener("click", () => {
+  p9_primary_content.style.display = "none";
+  p9_secondry_content.style.display = "none";
+  p9_secondry_content1.style.display = "none";
+  p9_secondry_content2.style.display = "flex";
+});
 
   </script>
   <?php

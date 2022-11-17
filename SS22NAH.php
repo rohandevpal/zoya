@@ -57,7 +57,7 @@ include('./includes/script.php');
     <div class="container">
       <div class="row">
         <div class="col-lg-6 col-12">
-          <div class="text-break p-0" id="primary_content">
+          <div class="text-break p-0" id="primary_content1">
             <h2
               class="text-dark text-uppercase text-dark text-uppercase text-sm-center text-center text-lg-start text-md-start">
               A PLAYFUL MEANDER
@@ -99,10 +99,10 @@ include('./includes/script.php');
         </div>
         <div class="col-lg-6 col-12">
           <div class="produt-img-box">
-            <span id="cng_content"><img src="./images/Group 293.png" alt="" class="img-fluid"></span>
-            <span id="cng_content2"><img src="./images/Group 301.png" alt="" class="img-fluid"></span>
-            <span id="cng_content3"><img src="./images/Group 302.png" alt="" class="img-fluid"></span>
-            <img id="img_small" src="./images/product/leap-product_test.png" alt="">
+            <span id="p7_cng_content"><img class="d-none" src="./images/Group 293.png" alt="" class="img-fluid"></span>
+            <span id="p7_cng_content2"><img src="./images/Group 301.png" alt="" class="img-fluid"></span>
+            <span id="p7_cng_content3"><img src="./images/Group 302.png" alt="" class="img-fluid"></span>
+            <img id="img_small" src="./images/product/SS22NAH-pro.png" alt="">
           </div>
         </div>
       </div>
@@ -142,7 +142,37 @@ include('./includes/script.php');
       </div>
     </div>
   </section>
+  <script>
+    //product 7
+    const p7_cng_content = document.querySelector("#p7_cng_content");
+    const p7_cng_content1 = document.querySelector("#p7_cng_content2");
+    const p7_cng_content2 = document.querySelector("#p7_cng_content3");
+    const p7_primary_content = document.querySelector("#primary_content1");
+    const p7_secondry_content = document.querySelector("#secondry_content");
+    const p7_secondry_content1 = document.querySelector("#secondry_content1");
+    const p7_secondry_content2 = document.querySelector("#secondry_content2");
 
+    //defining function for change content
+    p7_cng_content.addEventListener("click", () => {
+      p7_primary_content.style.display = "none";
+      p7_secondry_content.style.display = "flex";
+      p7_secondry_content1.style.display = "none";
+      p7_secondry_content2.style.display = "none";
+    });
+    p7_cng_content1.addEventListener("click", () => {
+      console.log('data');
+      p7_primary_content.style.display = "none";
+      p7_secondry_content.style.display = "none";
+      p7_secondry_content1.style.display = "flex";
+      p7_secondry_content2.style.display = "none";
+    });
+    p7_cng_content2.addEventListener("click", () => {
+      p7_primary_content.style.display = "none";
+      p7_secondry_content.style.display = "none";
+      p7_secondry_content1.style.display = "none";
+      p7_secondry_content2.style.display = "flex";
+    });
+  </script>
   <?php
   include('./includes/footer.php')
     ?>

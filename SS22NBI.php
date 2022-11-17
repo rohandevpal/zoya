@@ -142,7 +142,7 @@ include('./includes/script.php');
             <span id="cng_content2"><img src="./images/Group 301.png" alt="" class="img-fluid"></span>
             <span id="cng_content3"><img src="./images/Group 302.png" alt="" class="img-fluid"></span>
             <span id="cng_content4"><img src="./images/Group 302.png" alt="" class="img-fluid"></span>
-            <img id="img_small" src="./images/product/leap-product_test.png" alt="">
+            <img id="img_small" src="./images/product/SS22NBI-pro.png" alt="">
           </div>
         </div>
       </div>
